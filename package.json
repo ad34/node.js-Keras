@@ -1,0 +1,23 @@
+{
+  "name": "nodekeras",
+  "version": "1.0.0",
+  "description": "make keras prediction from node.js using redis pub/sub",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start-keras": "python keras-backend.py",
+    "start": "node app.js"
+  },
+  "keywords": [
+    "keras",
+    "node.js",
+    "redis"
+  ],
+  "author": "Nicolas Raby <nicolas.raby34@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "async": "^2.5.0",
+    "redis": "^2.8.0",
+    "uid2": "0.0.3"
+  }
+}
